@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroudmain"
+    tools:context=".service.RegisterActivity">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/iconlogin" > </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:text="Đăng ký"
+        android:layout_gravity="center"
+        android:textColor="#DD101010"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"/>
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Tên đăng ký"
+        android:textColorHint="#DDFF00"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Mật khẩu"
+        android:textColorHint="#ddff00"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editbuton"
+        android:text="Đồng ý"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroudmain"
+    tools:context=".service.LoginActivity">
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="197dp"
+        android:src="@drawable/iconlogin"  > </ImageView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:text="Đăng nhập"
+        android:textColor="#0E0E0E"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"/>
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Tài khoản "
+        android:textColorHint="#DDFF00"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/forget"
+        android:hint="Mật khẩu"
+        android:textColorHint="#DDFF00"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu?"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#DDFF00"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editbuton"
+        android:text="Đăng nhập"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editbuton"
+        android:text="Đăng ký"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
